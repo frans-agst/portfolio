@@ -50,14 +50,11 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 text-lg md:text-xl font-bold uppercase tracking-wider text-accent">
-              Technical Consultant & Systems Builder
+              TECHNICAL CONSULTANT & SYSTEMS BUILDER
             </p>
 
             <p className="mt-6 max-w-[640px] text-base md:text-lg text-muted leading-relaxed">
-              I bridge the gap between business operations and software
-              architecture. With a background in managing high-volume operations
-              and a degree in Computer Science, I design and deploy automated,
-              high-performance systems to solve complex bottlenecks.
+              I bridge the gap between business operations and software architecture. Drawing from my background in operations management—where I engineered pricing systems that drove a 200% revenue increase—I specialize in building secure, high-performance web applications that solve real supply chain and data bottlenecks. By leveraging agentic AI workflows, I turn complex business logic into scalable, production-ready Next.js and PostgreSQL systems efficiently.
             </p>
           </section>
         </Reveal>
@@ -85,19 +82,17 @@ export default function Home() {
                   <div className="group-hover:translate-x-3 transition-transform duration-500 ease-out">
                     <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-2">
                       <h3 className="text-lg font-black uppercase tracking-tight text-white transition-colors duration-300 group-hover:text-accent">
-                        Technical Consultant (Freelance)
+                        FULL-STACK DEVELOPER (FREELANCE)
                       </h3>
                       <span className="text-xs text-muted uppercase tracking-widest mt-1 sm:mt-0">
                         2025 — 2026
                       </span>
                     </div>
                     <p className="text-xs font-bold uppercase tracking-widest text-accent mb-3">
-                      Dreame Indonesia
+                      DREAME INDONESIA
                     </p>
                     <p className="text-sm text-muted leading-relaxed">
-                      Architected Next.js/Supabase retail ERP. Directed AI coding
-                      agents. Engineered dynamic pricing and custom RLS database
-                      security.
+                      Architected a controller-less Next.js 16 and Supabase retail ERP. Directed AI coding agents to accelerate full-stack development. Engineered atomic PostgreSQL RPC transactions, dynamic multi-channel pricing, and strict Row Level Security (RLS) policies for multi-tenant data isolation.
                     </p>
                   </div>
                 </div>
@@ -167,12 +162,11 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Card 1 */}
+            <div className="w-full relative">
               <Reveal delay={100}>
                 <article
                   id="project-erp"
-                  className="group rounded-none border border-border bg-card hover:-translate-y-2 hover:border-accent hover:shadow-[4px_4px_0_0_#4ade80] transition-all duration-500 h-full flex flex-col"
+                  className="group rounded-none border border-border bg-card hover:-translate-y-2 hover:border-accent hover:shadow-[6px_6px_0_0_#4ade80] transition-all duration-500 h-full flex flex-col"
                 >
                   <AutoCarousel
                     images={[
@@ -182,39 +176,35 @@ export default function Home() {
                       { src: "/images/project-1/4.jpg", alt: "ERP System Screenshot 4", label: "Role-Based Settings" }
                     ]}
                   />
-                  <div className="p-6 flex flex-col flex-1 border-t border-border group-hover:border-accent transition-colors duration-500">
-                    <span className="text-xs font-bold uppercase tracking-widest text-accent block mb-3">
+                  <div className="p-8 md:p-10 flex flex-col flex-1 border-t border-border group-hover:border-accent transition-colors duration-500">
+                    <span className="text-xs font-bold uppercase tracking-widest text-accent block mb-3 md:mb-4">
                       Project_01
                     </span>
-                    <h3 className="text-lg font-black uppercase tracking-tight text-white">
-                      Retail ERP System
+                    <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tight text-white mb-1">
+                      OMNICHANNEL RETAIL ERP
                     </h3>
-                    <p className="mt-1 text-xs text-muted uppercase tracking-wider">
-                      Client: Dreame Indonesia
+                    <p className="text-xs font-bold text-muted uppercase tracking-wider mb-8">
+                      Client: INTERNAL RETAIL CLIENT
                     </p>
 
-                    <div className="mt-5 space-y-3 text-sm text-muted leading-relaxed flex-1">
+                    <div className="space-y-6 text-sm md:text-base text-muted leading-relaxed flex-1">
                       <div>
-                        <span className="text-foreground font-semibold text-xs uppercase tracking-wider block mb-1">
+                        <span className="text-foreground font-semibold text-xs md:text-sm uppercase tracking-wider block mb-2">
                           Problem:
                         </span>
-                        Marketing team running multi-tier operations on fragmented
-                        Google Sheets.
+                        Marketing and supply chain teams managing high-frequency data entry, multi-tier channel pricing, and inventory routing across fragmented spreadsheets.
                       </div>
                       <div>
-                        <span className="text-foreground font-semibold text-xs uppercase tracking-wider block mb-1">
+                        <span className="text-foreground font-semibold text-xs md:text-sm uppercase tracking-wider block mb-2">
                           Solution:
                         </span>
-                        Architected a custom Next.js and Supabase dashboard using AI
-                        coding agents controlled by strict PRDs. Built a dynamic
-                        pricing engine, custom fiscal calendar logic, and Row Level
-                        Security policies for multi-role access control.
+                        Developed a secure, full-stack dashboard utilizing Next.js Server Actions and Supabase. Implemented atomic database RPCs to prevent inventory race conditions, a custom fiscal calendar engine for automated performance reporting, and JWT-based Role-Based Access Control (RBAC) to enforce strict data isolation between staff and dealers.
                       </div>
                       <div>
-                        <span className="text-foreground font-semibold text-xs uppercase tracking-wider block mb-1">
+                        <span className="text-foreground font-semibold text-xs md:text-sm uppercase tracking-wider block mb-2">
                           Stack:
                         </span>
-                        Next.js, TypeScript, Supabase, PostgreSQL, Tailwind CSS
+                        Next.js 16, TypeScript, Supabase, PostgreSQL, Tailwind CSS v4, Zod.
                       </div>
                     </div>
 
@@ -222,59 +212,10 @@ export default function Home() {
                       href="https://github.com/frans-agst/dreame-erp-showcase.git"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-6 inline-flex items-center gap-1 text-xs font-bold uppercase tracking-widest text-accent hover:underline underline-offset-4 decoration-2"
+                      className="mt-8 inline-flex items-center gap-1 text-xs md:text-sm font-bold uppercase tracking-widest text-accent hover:underline underline-offset-4 decoration-2"
                     >
-                      → View Repository (GitHub)
+                      → VIEW CASE STUDY (GITHUB)
                     </a>
-                  </div>
-                </article>
-              </Reveal>
-
-              {/* Card 2 */}
-              <Reveal delay={200}>
-                <article
-                  id="project-ml"
-                  className="group rounded-none border border-border bg-card hover:-translate-y-2 hover:border-accent hover:shadow-[4px_4px_0_0_#4ade80] transition-all duration-500 h-full flex flex-col"
-                >
-                  <AutoCarousel
-                    images={[
-                      { src: "/images/project-2/1.jpg", alt: "Vehicle Classification Output 1", label: "UI Screenshot 1 (Toyota Raize)" },
-                      { src: "/images/project-2/2.jpg", alt: "Vehicle Classification Output 2", label: "UI Screenshot 2 (Hino Bus)" },
-                      { src: "/images/project-2/3.jpg", alt: "Training Data Validation", label: "Accuracy Validation Graph" },
-                      { src: "/images/project-2/4.jpg", alt: "Model Architecture Diagram", label: "Deep Learning Model Architecture" }
-                    ]}
-                  />
-                  <div className="p-6 flex flex-col flex-1 border-t border-border group-hover:border-accent transition-colors duration-500">
-                    <span className="text-xs font-bold uppercase tracking-widest text-accent block mb-3">
-                      Project_02
-                    </span>
-                    <h3 className="text-lg font-black uppercase tracking-tight text-white">
-                      Vehicle Image Classification
-                    </h3>
-                    <p className="mt-1 text-xs text-muted uppercase tracking-wider">
-                      Academic Research Project
-                    </p>
-
-                    <div className="mt-5 space-y-3 text-sm text-muted leading-relaxed flex-1">
-                      <div>
-                        <span className="text-foreground font-semibold text-xs uppercase tracking-wider block mb-1">
-                          Implementation:
-                        </span>
-                        Built a deep learning network to classify vehicle types from
-                        user-uploaded images, processing raw image data via NumPy and
-                        deploying a real-time web interface. Trained on a custom
-                        dataset with data augmentation pipelines for robust
-                        generalization.
-                      </div>
-                      <div>
-                        <span className="text-foreground font-semibold text-xs uppercase tracking-wider block mb-1">
-                          Stack:
-                        </span>
-                        Python, TensorFlow, Keras, NumPy, Flask
-                      </div>
-                    </div>
-
-
                   </div>
                 </article>
               </Reveal>
@@ -377,15 +318,15 @@ export default function Home() {
               </div>
               <ul className="flex flex-wrap gap-3 list-none p-0 m-0">
                 {[
-                  "Next.js",
-                  "TypeScript",
-                  "PostgreSQL",
-                  "Supabase",
-                  "Golang",
-                  "Python",
-                  "TensorFlow",
-                  "Docker",
-                  "Git",
+                  "NEXT.JS",
+                  "TYPESCRIPT",
+                  "POSTGRESQL",
+                  "SUPABASE",
+                  "GOLANG",
+                  "DOCKER",
+                  "TAILWIND CSS",
+                  "GIT",
+                  "AGENTIC AI",
                 ].map((tech, i) => (
                   <Reveal key={tech} delay={i * 50}>
                     <li
