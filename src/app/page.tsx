@@ -11,7 +11,7 @@ export default function Home() {
       >
         <div className="mx-auto flex max-w-[1200px] items-center justify-between px-6 py-4">
           <span className="text-xs font-bold tracking-widest uppercase text-foreground transition-all duration-300 hover:text-accent cursor-default">
-            FA_2025
+            FA_2026
           </span>
           <div className="hidden md:flex items-center gap-8 text-xs uppercase tracking-widest text-muted">
             <a href="#experience" className="inline-block hover:text-foreground hover:-translate-y-0.5 transition-all duration-300">
@@ -174,13 +174,13 @@ export default function Home() {
                   id="project-erp"
                   className="group rounded-none border border-border bg-card hover:-translate-y-2 hover:border-accent hover:shadow-[4px_4px_0_0_#4ade80] transition-all duration-500 h-full flex flex-col"
                 >
-                  <AutoCarousel 
+                  <AutoCarousel
                     images={[
                       { src: "/images/project-1/1.jpg", alt: "ERP System Screenshot 1", label: "Dashboard Overview" },
                       { src: "/images/project-1/2.jpg", alt: "ERP System Screenshot 2", label: "Inventory Management" },
                       { src: "/images/project-1/3.jpg", alt: "ERP System Screenshot 3", label: "Dynamic Pricing Engine" },
                       { src: "/images/project-1/4.jpg", alt: "ERP System Screenshot 4", label: "Role-Based Settings" }
-                    ]} 
+                    ]}
                   />
                   <div className="p-6 flex flex-col flex-1 border-t border-border group-hover:border-accent transition-colors duration-500">
                     <span className="text-xs font-bold uppercase tracking-widest text-accent block mb-3">
@@ -219,7 +219,7 @@ export default function Home() {
                     </div>
 
                     <a
-                      href="https://github.com"
+                      href="https://github.com/frans-agst/dreame-erp-showcase.git"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-6 inline-flex items-center gap-1 text-xs font-bold uppercase tracking-widest text-accent hover:underline underline-offset-4 decoration-2"
@@ -236,13 +236,13 @@ export default function Home() {
                   id="project-ml"
                   className="group rounded-none border border-border bg-card hover:-translate-y-2 hover:border-accent hover:shadow-[4px_4px_0_0_#4ade80] transition-all duration-500 h-full flex flex-col"
                 >
-                  <AutoCarousel 
+                  <AutoCarousel
                     images={[
                       { src: "/images/project-2/1.jpg", alt: "Vehicle Classification Output 1", label: "UI Screenshot 1 (Toyota Raize)" },
                       { src: "/images/project-2/2.jpg", alt: "Vehicle Classification Output 2", label: "UI Screenshot 2 (Hino Bus)" },
                       { src: "/images/project-2/3.jpg", alt: "Training Data Validation", label: "Accuracy Validation Graph" },
                       { src: "/images/project-2/4.jpg", alt: "Model Architecture Diagram", label: "Deep Learning Model Architecture" }
-                    ]} 
+                    ]}
                   />
                   <div className="p-6 flex flex-col flex-1 border-t border-border group-hover:border-accent transition-colors duration-500">
                     <span className="text-xs font-bold uppercase tracking-widest text-accent block mb-3">
@@ -274,14 +274,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <a
-                      href="https://github.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-6 inline-flex items-center gap-1 text-xs font-bold uppercase tracking-widest text-accent hover:underline underline-offset-4 decoration-2"
-                    >
-                      → View Repository (GitHub)
-                    </a>
+
                   </div>
                 </article>
               </Reveal>
@@ -317,10 +310,10 @@ export default function Home() {
                       Bachelor of Computer Science
                     </h3>
                     <p className="mt-2 text-sm text-muted leading-relaxed">
-                      Universitas Gunadarma
+                      Gunadarma University
                     </p>
                     <p className="mt-1 text-xs text-muted uppercase tracking-widest">
-                      2018 — 2023
+                      2018 - 2023
                     </p>
                   </div>
                 </Reveal>
