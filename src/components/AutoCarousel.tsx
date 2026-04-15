@@ -47,7 +47,7 @@ export default function AutoCarousel({ images }: AutoCarouselProps) {
                <img 
                  src={image.src} 
                  alt={image.alt}
-                 className="w-full h-full object-contain relative z-10 select-none p-4"
+                 className="w-full h-full object-contain relative z-10 select-none"
                  onError={(e) => {
                    // Hide broken image icon to reveal brutalist fallback text
                    e.currentTarget.style.display = 'none';

@@ -54,7 +54,7 @@ export default function Home() {
             </p>
 
             <p className="mt-6 max-w-[640px] text-base md:text-lg text-muted leading-relaxed">
-              I bridge the gap between business operations and software architecture. Drawing from my background in operations management—where I engineered pricing systems that drove a 200% revenue increase—I specialize in building secure, high-performance web applications that solve real supply chain and data bottlenecks. By leveraging agentic AI workflows, I turn complex business logic into scalable, production-ready Next.js and PostgreSQL systems efficiently.
+              I bridge the gap between business operations and software architecture. Drawing from my background in operations management, where I engineered pricing systems that drove a 200% revenue increase, I specialize in building secure, high-performance web applications that solve real supply chain and data bottlenecks. By leveraging agentic AI workflows, I turn complex business logic into scalable, production-ready Next.js and PostgreSQL systems efficiently.
             </p>
           </section>
         </Reveal>
@@ -173,7 +173,9 @@ export default function Home() {
                       { src: "/images/project-1/1.jpg", alt: "ERP System Screenshot 1", label: "Dashboard Overview" },
                       { src: "/images/project-1/2.jpg", alt: "ERP System Screenshot 2", label: "Inventory Management" },
                       { src: "/images/project-1/3.jpg", alt: "ERP System Screenshot 3", label: "Dynamic Pricing Engine" },
-                      { src: "/images/project-1/4.jpg", alt: "ERP System Screenshot 4", label: "Role-Based Settings" }
+                      { src: "/images/project-1/4.jpg", alt: "ERP System Screenshot 4", label: "Role-Based Settings" },
+                      { src: "/images/project-1/5.jpg", alt: "ERP System Screenshot 5", label: "System Architecture" },
+                      { src: "/images/project-1/6.jpg", alt: "ERP System Screenshot 6", label: "Workflow Logic" }
                     ]}
                   />
                   <div className="p-8 md:p-10 flex flex-col flex-1 border-t border-border group-hover:border-accent transition-colors duration-500">
@@ -370,7 +372,7 @@ export default function Home() {
                 LinkedIn
               </a>
               <a
-                href="mailto:fransiscus@example.com"
+                href="mailto:fransagst.work@gmail.com"
                 className="inline-block text-muted hover:text-accent hover:-translate-y-1 transition-all duration-300"
               >
                 Email
