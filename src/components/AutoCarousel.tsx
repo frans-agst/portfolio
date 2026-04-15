@@ -35,13 +35,26 @@ export default function AutoCarousel({ images }: AutoCarouselProps) {
           >
             {/* The image container with fallback brutalist text beneath */}
             <div className="w-full h-full bg-black flex items-center justify-center relative overflow-hidden">
+               {/* Ambient Blurred Background (fills letterboxing) */}
+               <img 
+                 src={image.src}
+                 alt=""
+                 aria-hidden="true"
+                 className="absolute inset-0 w-full h-full object-cover opacity-20 blur-xl scale-125 z-0 pointer-events-none select-none"
+               />
+
+               {/* Crisp Main Image (fits inside without cropping) */}
                <img 
                  src={image.src} 
                  alt={image.alt}
-                 className="w-full h-full object-cover relative z-10 select-none"
+                 className="w-full h-full object-contain relative z-10 select-none"
                  onError={(e) => {
                    // Hide broken image icon to reveal brutalist fallback text
                    e.currentTarget.style.display = 'none';
+                   // Hide the blur background sibling as well
+                   if (e.currentTarget.previousElementSibling) {
+                     (e.currentTarget.previousElementSibling as HTMLElement).style.display = 'none';
+                   }
                  }}
                />
                <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center pointer-events-none z-0">
